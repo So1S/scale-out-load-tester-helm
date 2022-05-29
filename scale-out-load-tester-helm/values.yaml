@@ -16,7 +16,7 @@ fullnameOverride: ""
 
 pod:
   container:
-    command: ["k6", "run", "src/index.js"]
+    command: ["/bin/sh", "-c", "'k6 run src/index.js'"]
     args: []
 
 serviceAccount:
