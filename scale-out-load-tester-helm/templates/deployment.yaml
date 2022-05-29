@@ -38,7 +38,7 @@ spec:
           command: {{ .Values.pod.container.command }}
           {{- end }}
 
-          {{- if .Values.container.args }}
+          {{- if .Values.pod.container.args }}
           args: {{ .Values.pod.container.args }}
           {{- end }}
 
