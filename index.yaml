@@ -3,12 +3,12 @@ entries:
   scale-out-load-tester-helm:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-30T06:35:45.025676+09:00"
+    created: "2022-05-30T06:39:40.92108+09:00"
     description: A Helm chart for Kubernetes
-    digest: 45ae26568d7fde9d5cd556f0bab0a47140a633cd66d596f4aea0a0b0a4d0df80
+    digest: 2463e6f9be011c4adc7aa74083c0768a28b8e2152fc3a5d27467274a0c34d47d
     name: scale-out-load-tester-helm
     type: application
     urls:
     - scale-out-load-tester-helm-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-30T06:35:45.025386+09:00"
+generated: "2022-05-30T06:39:40.920447+09:00"

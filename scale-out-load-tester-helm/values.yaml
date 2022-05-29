@@ -16,8 +16,8 @@ fullnameOverride: ""
 
 pod:
   container:
-    command: ["/bin/sh", "-c", "'k6 run src/index.js'"]
-    args: []
+    command: []
+    args: ["-u", "20", "-d", "1m"]
 
 serviceAccount:
   # Specifies whether a service account should be created
