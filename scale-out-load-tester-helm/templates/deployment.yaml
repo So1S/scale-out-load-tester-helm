@@ -39,7 +39,7 @@ spec:
           {{- end }}
 
           {{- if .Values.container.args }}
-          args: {{ .Values.container.args }}
+          args: {{ .Values.pod.container.args }}
           {{- end }}
 
           ports:
