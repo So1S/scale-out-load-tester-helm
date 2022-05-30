@@ -17,7 +17,7 @@ fullnameOverride: ""
 pod:
   container:
     command: []
-    args: ["-u", "20", "-d", "1m"]
+    args: []
 
 serviceAccount:
   # Specifies whether a service account should be created
